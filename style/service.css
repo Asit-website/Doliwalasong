@@ -1,0 +1,251 @@
+.tal {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-image: url('../images/20190225_232909.png'), radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    background-blend-mode: darken;
+
+  }
+
+  .sect {
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+  .sect h2 {
+    font-size: 35px;
+    color: #FAE425;
+    text-align: center;
+  }
+
+  .sect p {
+    margin: 10px 0;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .services {
+    padding: 100px 60px;
+  }
+
+  .services h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    color: #EC3237;
+
+  }
+
+
+
+  .services .service_para {
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .services .frad {
+    margin: 10px 0;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+     font-size: 15px;
+    
+  }
+
+  .services .service_flex {
+    /* padding: 0 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+  }
+
+  .service_flex .first-service {
+    margin-top: 20px;
+    /* width: 154px; */
+    text-align: center;
+    /* height: 62px; */
+  
+    line-height: 20px;
+  }
+
+  .service_flex .second-service {
+    margin-top: 20px;
+    /* width: 180px; */
+    text-align: center;
+    /* height: 62px; */
+   
+    line-height: 20px;
+  }
+
+  .service_flex .third-service {
+    margin-top: 20px;
+    width: 216px;
+    text-align: center;
+    /* height: 62px; */
+    
+    line-height: 20px;
+  }
+
+  .service_flex .fourth-service {
+    margin-top: 20px;
+    width: 226px;
+    text-align: center;
+    /* height: 62px; */
+    line-height: 20px;
+  }
+
+  .st .ft {
+    text-align: center;
+  }
+
+  .service_flex .Third_image_first{
+    margin-left: 30px;
+  }
+
+  .service_flex img {
+    max-width: 100%;
+    width: 140px;
+    margin: 0 20px;
+    height: auto;
+    height: auto
+  }
+
+  .service_flex .last_image{
+      margin-left:40px;
+  } 
+  
+  .service_flex .last_image_first{
+    position: absolute; top:23%; left:30%; width: 35px;
+  }
+  .service_flex p {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+  }
+
+  /* ===========bride section css============ */
+
+  .bride {
+    /* position: relative; */
+    width: 100%;
+    /* max-width: 100%; */
+
+
+  }
+
+  .bride_flex {
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 100px 60px;
+
+  }
+
+  .bride .brid {
+    
+
+    padding: 0px 60px;
+    width: 80%;
+    margin-left: 30px;
+  }
+
+  .bride .brid h1 {
+    
+    color: #FD4434;
+    max-width: 100%;
+    line-height: 38px;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .bride .brid p {
+    color: #000000;
+    margin-top: 10px;
+    margin-right: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 500;
+
+
+  }
+
+  .brid_flex .utube_video {
+    padding: 0 20px;
+
+  }
+
+  iframe {
+
+    max-width: 100%;
+    margin-left: -4px;
+    position: relative;
+    width: 695px;
+    height: 410px;
+    object-fit: cover;
+  }
+
+  .second_img img {
+    /* max-width: 100%;
+       width: 680px;
+       height: auto; */
+
+    max-width: 100%;
+    margin-left: -4px;
+    position: relative;
+    width: 680px;
+    height: auto;
+    object-fit: cover;
+
+  }
+
+
+  .third_img img {
+    /* width: 603px;
+     max-width: 100%;
+     height: auto; */
+
+    max-width: 100%;
+    margin-left: -4px;
+    position: relative;
+    width: 604px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .bride .srid {
+    padding: 0px 60px;
+    width: 90%;
+    margin-left: 30px;
+  }
+
+  .bride .srid h1 {
+    margin: 10px 0;
+    font-size: 35px;
+    color: #EC3237;
+    font-family: 'Roboto Slab', serif;
+  }
+
+  .bride .srid p {
+    color: #000000;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-right: 30px;
+
+  }

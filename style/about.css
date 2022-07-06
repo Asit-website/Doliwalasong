@@ -1,0 +1,194 @@
+.tal {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-image: url('../images/20220219_213126.png'), radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    background-blend-mode: darken;
+
+  }
+
+  .sect {
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+  .sect h2 {
+    font-size: 35px;
+    color: #FAE425;
+    text-align: center;
+  }
+
+  .sect p {
+    margin: 10px 0;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+  /* welcome face css  */
+  .welcome {
+    position: relative;
+    background-image: url('../images/Rectangle 206.png');
+    width: 100%;
+  }
+
+  .welcome .welcome_flex {
+    /* display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 100px 20px; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 100px 60px;
+  }
+
+  .welcome_flex .wel {
+    /* padding: 0 50px;
+        width: 90%;
+        margin-left: 30px; */
+
+    padding: 0px 60px;
+    width: 100%;
+    margin-left: 30px;
+  }
+
+  .welcome_flex .wel p {
+    color: #000000;
+    margin-right: 30px;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 500;
+  }
+
+  .welcome_flex .wel span {
+    color: #000000;
+    margin-right: 30px;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 500;
+  }
+
+  .welcome_flex .wel h1 {
+    /* color: #EC3237;
+        font-weight: bolder;
+        font-size: 35px;
+        font-family: 'Roboto Slab', serif; */
+
+    color: #FD4434;
+    max-width: 100%;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .welcome_img {
+    position: relative;
+  }
+
+
+
+  .welcome_flex .welcome_img img {
+    /* max-width: 100%;
+    width: 588px;
+    height: auto;
+    margin-top: 20px; */
+
+    max-width: 100%;
+    margin-left: -4px;
+    position: relative;
+    width: 588px;
+    height: auto;
+    object-fit: cover;
+
+  }
+
+  /* welcome css end  */
+
+
+  /* ------photo section css start-------- */
+
+  .photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 30px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .photo img {
+
+    margin: 0 12px;
+    width: 400px;
+    height: 400px;
+  }
+
+
+  .img-wed {
+    padding: 100px 60px;
+    margin: 0 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .img-wed div {
+    margin: 0 10px;
+  }
+
+  .img-wed img {
+    object-fit: cover;
+    max-width: 100%;
+    width: 461px;
+    height: auto;
+    object-position: bottom;
+    margin: 0 10px;
+    border-radius: 10px;
+  }
+
+  .arrows{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+ }
+
+  .arrows .prev-arrow{
+    position: relative;
+ }
+
+  .arrows .prev-arrow img{
+    /* position: absolute; */
+  width: 42px;
+  height: auto;
+  right: 35px;
+  top: -270px;
+ }
+
+  .arrows .next-arrow{
+    position: relative;
+ }
+
+  .arrows .next-arrow img{
+    height: auto;
+    /* position: absolute; */
+    width: 42px;
+    top: -270px;
+    left: 35px;
+ }
+
+  /* ........photo section end...... */
