@@ -128,5 +128,9 @@
      .get_in span{
       font-size: 16px;
      }
+
+     footer .aboutUs .about_image img{
+      width: 25px;
+     }
    
 }

@@ -10,18 +10,18 @@
   }
 
   .sect {
-    font-family: 'Roboto Slab', serif;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-    font-family: 'Roboto', sans-serif;
   }
 
 
   .sect h2 {
-    font-size: 35px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+    font-size: 32px;
     color: #FAE425;
     text-align: center;
   }
@@ -29,7 +29,7 @@
   .sect p {
     margin: 10px 0;
     text-align: center;
-    font-size: 17px;
+    font-size: 16px;
     font-family: 'Poppins', sans-serif;
   }
 
@@ -41,8 +41,7 @@
     text-align: center;
     font-size: 30px;
     color: #EC3237;
-    font-family: 'Roboto', sans-serif;
-    /* height: 126px; */
+    font-family: 'Roboto Slab', serif;
     margin-top: 10px;
   }
 

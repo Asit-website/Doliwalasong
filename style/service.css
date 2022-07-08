@@ -10,25 +10,25 @@
   }
 
   .sect {
-    font-family: 'Roboto Slab', serif;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-    font-family: 'Roboto', sans-serif;
   }
 
 
   .sect h2 {
-    font-size: 35px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+    font-size: 32px;
     color: #FAE425;
     text-align: center;
   }
 
   .sect p {
     margin: 10px 0;
-    font-size: 17px;
+    font-size: 16px;
     font-family: 'Poppins', sans-serif;
   }
 
@@ -39,15 +39,16 @@
   .services h1 {
     text-align: center;
     font-size: 35px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
     color: #EC3237;
+    font-weight: bolder;
 
   }
 
 
 
   .services .service_para {
-    font-size: 17px;
+    font-size: 16px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     margin-top: 20px;
@@ -70,6 +71,7 @@
   }
 
   .service_flex .first-service {
+    font-family: 'Poppins', sans-serif;
     margin-top: 20px;
     /* width: 154px; */
     text-align: center;
@@ -79,6 +81,7 @@
   }
 
   .service_flex .second-service {
+    font-family: 'Poppins', sans-serif;
     margin-top: 20px;
     /* width: 180px; */
     text-align: center;
@@ -88,6 +91,7 @@
   }
 
   .service_flex .third-service {
+    font-family: 'Poppins', sans-serif;
     margin-top: 20px;
     width: 216px;
     text-align: center;
@@ -97,6 +101,7 @@
   }
 
   .service_flex .fourth-service {
+    font-family: 'Poppins', sans-serif;
     margin-top: 20px;
     width: 226px;
     text-align: center;
@@ -155,11 +160,12 @@
   }
 
   .bride .brid h1 {
-    color: #FD4434;
+    color: #EC3237;
     max-width: 100%;
     line-height: 38px;
+    font-weight: bolder;
     font-size: 35px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
   }
 
   .bride .brid p {

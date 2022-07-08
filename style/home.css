@@ -231,6 +231,7 @@ footer .contact .doliWala_textImg{
    margin: 0 10px;
    font-family: 'Poppins', sans-serif;
    font-weight: 500;
+   white-space: nowrap;
 }
 .get_in{
     display: flex;

@@ -10,13 +10,12 @@
  }
 
  .sect {
-    font-family: 'Roboto Slab', serif;
+   
     position: absolute;
     top: 50%;
     left: 5%;
     transform: translateY(-50%);
     color: #fff;
-    font-family: 'Roboto', sans-serif;
  }
 
  .sect h1 {
@@ -36,7 +35,7 @@
     max-width: 475px;
     width: 100%;
     height: auto;
-    font-size: 17px;
+    font-size: 16px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
  }
@@ -70,16 +69,12 @@
  }
 
  .welcome .wel h1 {
-    /* color: #FD4434;
-  max-width: 100%;
-  font-size: 40px;
-  font-family: 'Roboto', sans-serif; */
-
+    font-weight: bolder;
     color: #FD4434;
     max-width: 100%;
     line-height: 38px;
     font-size: 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
 
  }
 
@@ -160,7 +155,7 @@
     font-weight: bold;
     font-size: 35px;
     color: #EC3237;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
  }
 
  .ev_sec p {
@@ -218,7 +213,7 @@
     height: 104px;
     font-size: 30px;
     color: #FAE425;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
  }
 
  .doliwalaU_flex .utube_para p {
@@ -269,7 +264,8 @@
     font-size: 35px;
     text-align: center;
     color: #EC3237;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto Slab', serif;
  }
  .lets_event .arrows{
     display: flex;
