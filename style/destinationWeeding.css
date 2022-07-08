@@ -33,7 +33,6 @@
   }
 
   .beach {
-    /* height: 1059px; */
     background-image: url('../images/Rectangle 206.png');
     display: flex;
     align-items: center;
@@ -42,22 +41,12 @@
   }
 
   .beach .first_beach {
-    /* padding: 0 50px;
-         width: 90%;
-         margin-left: 30px; */
-
     padding: 0px 60px;
     width: 90%;
     margin-left: 30px;
   }
 
   .beach .first_beach h1 {
-
-    /* color: #FD4434;
-       max-width: 100%;
-        font-size: 50px;
-        font-family: 'Roboto', sans-serif; */
-
     color: #FD4434;
     max-width: 100%;
     line-height: 38px;
@@ -68,11 +57,8 @@
   }
 
   .beach .first_beach p {
-
-
     color: #000000;
     margin-top: 10px;
-    /* margin-right: 30px; */
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
     line-height: 25px;
@@ -80,22 +66,17 @@
   }
 
   .beach .second_beach img {
-
-
     max-width: 100%;
     margin-left: -4px;
     position: relative;
     width: 604px;
     height: auto;
     object-fit: cover;
-    /* filter: brightness(.4); */
   }
 
 
 
   .beach button {
-    /* margin-left: 30px; */
-    /* display: block; */
     width: 180px;
     height: 50px;
     background-color: #EC3237;
@@ -130,4 +111,64 @@
     object-position: bottom;
     margin: 0 10px;
     border-radius: 5px;
+  }
+
+  @media only screen and (max-width:1181px){
+    .tal{
+      height: 70vh;
+   }
+   .sect h2{
+      font-size: 25px;
+   }
+   .sect p{
+      font-size: 12px; 
+      text-align: center;
+   }
+
+   .beach{
+    flex-direction: column;
+    padding: 50px 30px;
+   }
+
+   .beach .first_beach{
+    width: 100%;
+    padding: 0px 0px;
+    margin-left: 0px;
+   }
+
+   .beach .first_beach h1{
+    font-size: 25px;
+    line-height: 24px;
+   }
+
+   .beach .first_beach p{
+    font-size: 16px;
+   }
+
+   .beach .second_beach img{
+    margin-left: 0px;
+   }
+
+   .second_beach{
+    margin-top: 20px;
+   }
+
+   .img-wed{
+    padding: 50px 30px;
+    margin: 0px 0px;
+   }
+
+   .img-wed img{
+    margin: 0px 0px;
+   }
+  }
+
+  @media only screen and (max-width:791px) {
+     .img-wed{
+      flex-direction: column;
+     } 
+
+     .img-wed div{
+      margin: 12px 0;
+     }
   }

@@ -41,10 +41,6 @@
   }
 
   .welcome .welcome_flex {
-    /* display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        padding: 100px 20px; */
 
     display: flex;
     align-items: center;
@@ -53,9 +49,6 @@
   }
 
   .welcome_flex .wel {
-    /* padding: 0 50px;
-        width: 90%;
-        margin-left: 30px; */
 
     padding: 0px 60px;
     width: 100%;
@@ -83,11 +76,6 @@
   }
 
   .welcome_flex .wel h1 {
-    /* color: #EC3237;
-        font-weight: bolder;
-        font-size: 35px;
-        font-family: 'Roboto Slab', serif; */
-
     color: #FD4434;
     max-width: 100%;
     font-size: 35px;
@@ -101,18 +89,19 @@
 
 
   .welcome_flex .welcome_img img {
-    /* max-width: 100%;
-    width: 588px;
-    height: auto;
-    margin-top: 20px; */
-
     max-width: 100%;
     margin-left: -4px;
     position: relative;
     width: 588px;
     height: auto;
     object-fit: cover;
+  }
 
+  .welcome_flex .welcome_img .opacity_img{
+    position: absolute;width: 310px;
+          top: -160px;
+          left: 110px;
+          height: auto; filter: brightness(100%);
   }
 
   /* welcome css end  */
@@ -192,3 +181,75 @@
  }
 
   /* ........photo section end...... */
+
+  /* ============responsive design===================== */
+  @media only screen and (max-width:1181px) {
+    .tal{
+      height: 70vh;
+   }
+   .sect h2{
+      font-size: 25px;
+   }
+
+   
+
+   .sect p{
+      font-size: 12px; 
+      text-align: center;
+   }
+   /* ===============welcome=========== */
+    .welcome .welcome_flex{
+      flex-direction: column;
+      padding: 50px 30px;
+    }
+
+    .welcome_flex .wel{
+      width: 100%;
+      padding: 0px 0px;
+      margin-left: 0px;
+    }
+
+    .welcome_flex .wel h1{
+      font-size: 23px;
+      line-height: 30px;
+    }
+
+    .welcome .wel p{
+      font-size: 16px;
+      margin-right: 0px;
+     }
+
+     .welcome_flex .wel span{
+      margin-right: 0px;
+     }
+
+     .welcome_flex .welcome_img .opacity_img{
+      width: 140px;
+      top: -55px;
+     }
+
+     .welcome_img{
+      margin-top: 70px;
+     }
+
+     .img-wed{
+      padding:50px 30px ;
+     }
+
+  }
+
+  @media only screen and (max-width:791px) {
+      .img-wed{
+       flex-direction: column;
+        margin: 0px 0px;
+        padding: 50px 30px;
+      }
+    
+      .img-wed div{
+       margin: 12px 0;
+      }
+    
+      .img-wed img{
+       margin: 0 0;
+      }
+ }

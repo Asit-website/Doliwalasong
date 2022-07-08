@@ -392,3 +392,115 @@
     border-radius: 5px;
     margin: 25px auto;
 }
+
+/* ============media query=============== */
+
+@media only screen and (max-width: 1181px){
+   .tal{
+      height: 70vh;
+   }
+   .sect h2{
+      font-size: 25px;
+   }
+   .sect p{
+      font-size: 12px; 
+      text-align: center;
+   }
+
+   .wed_plan h1{
+      font-size: 25px;
+   }
+    .wed_plan{
+      padding: 50px 30px;
+    }
+   .wed_plan .wed_head p{
+      font-size: 13px;
+   }
+
+   .wed_plan .wed_para p{
+      width: 100%;
+   }
+}
+
+@media only screen and (max-width:977px) {
+   /* ==========first section of gel start========== */
+   .gel-sec .gelsec_flex{
+      flex-direction: column;
+      align-items: center;
+      padding: 0px 0px;
+   }
+   /* in zero mai 10 lagana hai  */
+
+   .firstImg {
+     margin: 0px 0px;
+   }
+
+   .complicate_flex .complicate_first{
+      margin: 10px 0px;
+   }
+
+   .complicate_flex .complicate_second{
+      margin: 10px 0px;
+   }
+
+   .secondimgLower{
+      margin: 0px 0px;
+   }
+
+   .thirdImg{
+      margin: 10px 0px;
+   }
+
+   /* ================first section of gel end========== */
+  .gelexy_flex{
+   flex-direction: column-reverse;
+   padding: 0px 0px;
+  }
+
+  .subconcious .subconcious_flex_first{
+   margin: 0px 0px;
+  }
+
+  .subconcious .subconcious_flex_second{
+   margin: 0px 0px;
+  }
+
+  .secondLowersite{
+   margin: 10px 0px;
+  }
+
+  .gelexy_flex .gelexy_first{
+   margin: 0px 0px;
+  }
+
+  .ThemeWeed{
+   margin: 0px 0px;
+   padding: 0px 0px;
+  }
+  .ThemeWeed img{
+   height: 300px;
+  }
+  .gel-sec p{
+     font-size: 12px;
+  }
+
+  .complicate .complicate_first p{
+   font-size: 12px;
+  }
+
+  .complicate .complicate_second p{
+   font-size: 12px;
+  }
+
+  .subconcious .subconcious_flex_first p{
+   font-size: 12px;
+  }
+
+  .subconcious .subconcious_flex_second p{
+   font-size: 12px;
+  }
+
+  .gelexy_flex .gelexy_first p{
+   font-size: 12px;
+  }
+}

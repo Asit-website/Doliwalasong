@@ -41,10 +41,6 @@
 }
 
 .beach .first_beach {
-    /* padding:0 50px;
-    width: 90%;
-    margin-left: 30px; */
-
     padding: 0px 60px;
     width: 90%;
     margin-left: 30px;
@@ -56,14 +52,11 @@
     line-height: 38px;
     font-size: 35px;
     font-family: 'Roboto', sans-serif;
-
 }
 
 .beach .first_beach p {
-
     color: #000000;
     margin-top: 10px;
-    /* margin-right: 30px; */
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
     line-height: 25px;
@@ -72,11 +65,6 @@
 
 
 .beach .second_beach img {
-    /* max-width: 100%;
-    width: 604px;
-    max-height: 100%;
-    height: auto; */
-
     max-width: 100%;
     margin-left: -4px;
     position: relative;
@@ -86,7 +74,6 @@
 }
 
 .beach button {
-
     width: 180px;
     height: 50px;
     background-color: #EC3237;
@@ -97,7 +84,6 @@
     border: none;
     border-radius: 8px;
     margin: 25px 0;
-
 }
 
 .img-wed {
@@ -121,3 +107,63 @@
     margin: 0 10px;
     border-radius: 5px;
 }
+
+@media only screen and (max-width:1181px){
+    .tal{
+      height: 70vh;
+   }
+   .sect h2{
+      font-size: 25px;
+   }
+   .sect p{
+      font-size: 12px; 
+      text-align: center;
+   }
+
+   .beach{
+    flex-direction: column;
+    padding: 50px 30px;
+   }
+
+   .beach .first_beach{
+    width: 100%;
+    padding: 0px 0px;
+    margin-left: 0px;
+   }
+
+   .beach .first_beach h1{
+    font-size: 25px;
+    line-height: 24px;
+   }
+
+   .beach .first_beach p{
+    font-size: 16px;
+   }
+
+   .beach .second_beach img{
+    margin-left: 0px;
+   }
+
+   .second_beach{
+    margin-top: 20px;
+   }
+
+   .img-wed{
+    padding: 50px 30px;
+    margin: 0px 0px;
+   }
+
+   .img-wed img{
+    margin: 0px 0px;
+   }
+  }
+
+  @media only screen and (max-width:791px) {
+     .img-wed{
+      flex-direction: column;
+     } 
+
+     .img-wed div{
+      margin: 12px 0;
+     }
+  }

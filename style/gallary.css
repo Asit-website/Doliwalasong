@@ -1,202 +1,262 @@
-.tal{
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-image: url('../images/37f314f2037065e349cfa2b77b16708e.png'),radial-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
-    background-blend-mode: darken;
-   
+.tal {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-image: url("../images/37f314f2037065e349cfa2b77b16708e.png"),
+    radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  background-blend-mode: darken;
+}
+
+.sect {
+  font-family: "Roboto Slab", serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.sect h1 {
+  font-size: 35px;
+  color: #fae425;
+  text-align: center;
+}
+
+.sect p {
+  margin: 10px 0;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ===========gallary=============== */
+
+.update_gallary {
+  padding: 100px 60px;
+}
+
+.update_gallary h1 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: #ec3237;
+  font-family: "Roboto Slab", serif;
+}
+
+.update_gallary p {
+  text-align: center;
+  font-size: 18px;
+  height: 33px;
+  margin-top: 10px;
+}
+
+.gelexy_flex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  /* padding: 10px 0px; */
+}
+
+.selexty {
+  margin-top: 20px;
+}
+
+.sant {
+  margin-top: 30px;
+}
+
+.gelexy_flex .gelexy_first {
+  position: relative;
+  margin: 0 15px;
+}
+
+.gelexy_flex .gelexy_first img {
+  width: 842px;
+  height: 450px;
+  object-fit: cover;
+  max-height: 100%;
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+.subconcious .subconcious_flex {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.subconcious .subconcious_flex_first {
+  position: relative;
+  margin: 0 15px;
+}
+
+.subconcious .subconcious_flex_first img {
+  width: 398px;
+  max-width: 100%;
+  max-height: 100%;
+  height: 196px;
+  object-fit: cover;
+  border-radius: 8px;
+  object-position: top;
+}
+
+.subconcious .subconcious_flex_second {
+  position: relative;
+  margin: 0 15px;
+}
+
+.subconcious .subconcious_flex_second img {
+  width: 397px;
+  max-width: 100%;
+  border-radius: 8px;
+  max-height: 100%;
+  height: 196px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.secondLowersite {
+  position: relative;
+  margin: 25px 15px;
+}
+
+.secondLowersite img {
+  width: 837px;
+  max-width: 100%;
+  height: 228px;
+  max-height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.another {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 0px 30px; */
+  /* margin: 20px 0; */
+}
+
+.another1 {
+  margin: 0 15px;
+}
+
+.another1 img {
+  max-width: 837px;
+  max-height: 100%;
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+
+.another2 {
+  margin: 0 15px;
+}
+
+.another2 img {
+  height: auto;
+  width: 100%;
+  max-width: 841px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.another3 {
+  margin: 0 15px;
+}
+
+.another3 img {
+  width: 600px;
+  height: 300px;
+  max-width: 100%;
+  max-height: 100;
+  object-fit: cover;
+  border-radius: 8px;
+  /* object-position: top; */
+}
+
+.another4 {
+  margin: 0 15px;
+}
+
+.another4 img {
+  width: 600px;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+  height: 300px;
+  border-radius: 8px;
+}
+
+/* ==============media query==================== */
+
+@media only screen and (max-width: 1181px) {
+  .tal {
+    height: 70vh;
   }
-      
-      .sect {
-        font-family: 'Roboto Slab', serif;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fff;
-        font-family: 'Roboto', sans-serif;
-      }
+  .sect h1 {
+    font-size: 25px;
+  }
+  .update_gallary h1 {
+    font-size: 25px;
+  }
+  .update_gallary p {
+    font-size: 13px;
+  }
 
+  .update_gallary {
+    padding: 50px 30px;
+  }
+}
 
-      .sect h1{
-        font-size: 35px;
-        color: #FAE425;
-        text-align: center;
-      }
+@media only screen and (max-width: 971px) {
+  .gelexy_flex {
+    flex-direction: column;
+  }
+  .another {
+    flex-direction: column;
+    margin: 10px 0;
+  }
 
-      .sect p{
-        margin: 10px 0;
-        font-size: 16px;
-        font-family: 'Poppins', sans-serif;
-      }
+  .gelexy_flex .gelexy_first {
+    margin: 0px 0px;
+  }
 
+  .subconcious .subconcious_flex {
+    margin: 10px 0;
+  }
 
-      /* ===========gallary=============== */
+  .subconcious .subconcious_flex_first {
+    margin: 10px 0px;
+  }
 
-      .update_gallary{
-         padding: 100px 60px;
-      }
+  .subconcious .subconcious_flex_second {
+    margin: 10px 0px;
+  }
+  .secondLowersite {
+    margin: 10px 0;
+  }
+  .another1 {
+    margin: 0px 0px;
+  }
+  .another2 {
+    margin: 20px 0;
+  }
 
-      .update_gallary h1{
-         text-align: center;
-         font-size: 35px;
-         font-weight: bold;
-         color: #EC3237;
-         font-family: 'Roboto Slab', serif;
-      }
+  .another3 {
+    margin: 0px 0px;
+  }
 
-      .update_gallary p{
-         text-align: center;
-         font-size: 18px;
-         height: 33px;
-         margin-top: 10px;
-      }
+  .another4 {
+    margin: 20px 0;
+  }
 
-      .gelexy_flex {
-         display: flex;
-         align-items: flex-start;
-         justify-content: center;
-     
-         /* padding: 10px 0px; */
-       }
-     
-       .sant {
-         margin-top: 30px;
-       }
-     
-       .gelexy_flex .gelexy_first {
-         position: relative;
-         margin: 0 15px;
-       }
-     
-       .gelexy_flex .gelexy_first img {
-         width: 842px;
-         height: 450px;
-         object-fit: cover;
-         max-height: 100%;
-         border-radius: 8px;
-         max-width: 100%;
-       }
-     
-     
-     
-       .subconcious .subconcious_flex {
-         position: relative;
-         display: flex;
-         align-items: flex-start;
-         justify-content: center;
-       }
-     
-       .subconcious .subconcious_flex_first {
-         position: relative;
-         margin: 0 15px;
-       }
-     
-       .subconcious .subconcious_flex_first img {
-         width: 398px;
-         max-width: 100%;
-         max-height: 100%;
-         height: 196px;
-         object-fit: cover;
-         border-radius: 8px;
-         object-position: top;
-       }
-     
-     
-     
-       .subconcious .subconcious_flex_second {
-         position: relative;
-         margin: 0 15px;
-       }
-     
-       .subconcious .subconcious_flex_second img {
-         width: 397px;
-         max-width: 100%;
-         border-radius: 8px;
-         max-height: 100%;
-         height: 196px;
-         object-fit: cover;
-         object-position: top;
-       }
-     
-     
-       .secondLowersite {
-         position: relative;
-         margin: 25px 15px;
-       }
-     
-       .secondLowersite img {
-         width: 837px;
-         max-width: 100%;
-         height: 228px;
-         max-height: 100%;
-         border-radius: 8px;
-         object-fit: cover;
-         border-radius: 8px;
-       }
-     
-       .another {
-         display: flex;
-         align-items: center;
-         justify-content: center;
-         /* padding: 0px 30px; */
-         /* margin: 20px 0; */
-       }
-     
-       .another1 {
-         margin: 0 15px;
-       }
-     
-       .another1 img {
-         max-width: 837px;
-         max-height: 100%;
-         width: 100%;
-         object-fit: cover;
-         height: auto;
-       }
-     
-       .another2 {
-         margin: 0 15px;
-       }
-     
-       .another2 img {
-         height: auto;
-         width: 100%;
-         max-width: 841px;
-         width: 100%;
-         object-fit: cover;
-       }
-     
-       .another3 {
-         margin: 0 15px;
-       }
-     
-       .another3 img {
-         width: 600px;
-         height: 300px;
-         max-width: 100%;
-         max-height: 100;
-         object-fit: cover;
-         border-radius: 8px;
-         /* object-position: top; */
-     
-       }
-     
-       .another4 {
-         margin: 0 15px;
-       }
-     
-       .another4 img {
-         width: 600px;
-         height: auto;
-         max-width: 100%;
-         object-fit: cover;
-         height: 300px;
-         border-radius: 8px;
-       }
-      
-     
-      
-    
+  .selexty {
+    margin-top: 0px;
+  }
+}

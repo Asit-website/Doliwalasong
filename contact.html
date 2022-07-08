@@ -8,6 +8,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="style/home.css">
   <link rel="stylesheet" href="style/contact.css">
+  <link rel="stylesheet" href="style/responsive.css">
 </head>
 <style>
  
@@ -20,7 +21,7 @@
         <span><img src="images/Mask Group 22.png" alt="">Mr. Parvindar(परविन्दर)</span>
       </div>
       <div class="second_span">
-        <span><img style="width:14px; height:13px;" src="images/Mask Group 5.png" alt="">+91 9015608586</span>
+        <span><img src="images/Mask Group 5.png" alt="">+91 9015608586</span>
       </div>
     </div>
 
@@ -33,21 +34,23 @@
     </div>
   </header>
 
-  <nav class="navbar">
+  <nav class="navbar second">
     <div class="first_nav">
-      <img src="images/icon.png" alt="nothing">
+       <img src="images/icon.png" alt="nothing">
     </div>
     <div class="second_nav">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="weddingPlaner.html">Wedding Planner</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="Gallary.html">Gallary</a></li>
-        <li><a href="contact.html">Conatct Us</a></li>
-      </ul>
+      <button style=" padding: 5px 20px; background-color: hotpink; border: none; outline: none; border-radius: 5px; color: #FFFFFF;" class="burger">Menu</button>
+      <!-- <p style="color: hotpink; font-weight:bold; text-transform: capitalize; padding: 0; margin: 0;" id="men">menu</p> -->
+       <ul class="fing v-class-resp">
+          <li ><a  href="index.html">Home</a></li>
+          <li ><a  href="about.html">About Us</a></li>
+          <li ><a  href="weddingPlaner.html">Wedding Planner</a></li>
+          <li ><a  href="services.html">Services</a></li>
+          <li ><a  href="Gallary.html">Gallary</a></li>
+          <li ><a href="contact.html">Conatct Us</a></li>
+       </ul>
     </div>
-  </nav>
+ </nav>
 
   <div class="tal">
 
@@ -80,19 +83,8 @@
     </div>
   </div>
 
-  <!-- <div class="contact_us">
-    <form   action="">
-      <div class="inp">
-      <input type="text" placeholder="Name">
-      <input type="text" placeholder="E-Mail">
-      <input type="text" placeholder="subject">
-      <textarea style="text-align: center;" name="" id="" cols="30" rows="10"></textarea>
-   </div>
-     <button>Send Message</button>
-    </form>
-  </div> -->
 
-  <div style="background-color:#222222 ; padding: 60px 60px;">
+  <div class="contas">
     <div class="wrapper">
 
       <div class="form">
@@ -195,13 +187,13 @@
     </div>
   </footer>
 
-  <div class="second_footer">
-    <div>
-      <p>© Copyright All Right Reserved M/S Doliwala डोलीवाला Events LLP ® Registered Trademark</p>
-      <p> Designed & Developed By Kushel Digi Solutions</p>
-    </div>
+  <div  class="another_footer">
+    <p >
+      © Copyright All Right Reserved M/S Doliwala डोलीवाला Events LLP ® Registered Trademark
+    </p>
+    <p >Designed & Developed By Kushel Digi Solutions</p>
+</div>
 
-  </div>
   <script>
     const activePage = window.location.pathname;
     const navLinks = document.querySelectorAll('nav a').forEach(link => {
@@ -210,6 +202,15 @@
         console.log(link);
       }
     })
+
+    let burger = document.querySelector('.burger');
+   let second = document.querySelector('.second');
+   let fing = document.querySelector('.fing');
+   let navbar = document.querySelector('.navbar');
+   burger.addEventListener('click',()=>{
+      fing.classList.toggle('v-class-resp');
+      navbar.classList.toggle('second');
+   })
   </script>
 </body>
 

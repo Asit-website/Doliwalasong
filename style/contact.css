@@ -75,60 +75,9 @@
   }
 
 
-  /* ==========conatct us form=============== */
-
-  .contact_us {
-    background-color: #222222;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 50px 20px;
-  }
-
-  .contact_us form input {
-    border-radius: 10px;
-    margin: 30px 20px;
-    width: 355px;
-    /* max-width: 100%; */
-    /* padding: 0 20px; */
-    padding: 20px 20px;
-    height: auto;
-    object-fit: cover;
-    outline: none;
-    border: none;
-
-  }
-
-
-
-  .contact_us form textarea {
-    height: 229px;
-    display: block;
-    margin: 30px auto;
-    padding: 0 25px;
-    max-width: 1150px;
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 10px;
-    outline: none;
-    border: none;
-
-  }
-
-  .contact_us button {
-    width: 180px;
-    display: block;
-    height: 50px;
-    background-color: #EC3237;
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-    color: #FFFFFF;
-    outline: none;
-    border: none;
-    border-radius: 8px;
-    margin: 30px auto;
-  }
+.contas{
+  background-color:#222222 ; padding: 60px 60px;
+}
 
 
   /* ==========conatct form end=============== */
@@ -222,12 +171,77 @@
     margin: 25px auto;
   }
 
+  
+
+  @media only screen and (max-width:1181px) {
+    .tal{
+      height: 70vh;
+   }
+   .sect h2{
+      font-size: 25px;
+   }
+
+   .sect p{
+      font-size: 12px; 
+      text-align: center;
+   }
+
+   .how{
+    padding: 50px 30px;
+   }
+
+   .how_flex{
+    padding: 0px 0px;
+   }
+
+   .contas{
+    padding: 50px 30px;
+   }
+
+   .how h1{
+    font-size: 25px;
+   }
+   .how p{
+    font-size: 13px;
+   }
+
+  }
+
+
+
+  @media only screen and (max-width:791px){
+    .how{
+      padding: 50px 30px;
+    }
+    .how_flex{
+      flex-direction: column;
+      height: auto;
+      padding: 0px 0px;
+    }
+
+    .contas{
+      padding: 50px 30px;
+    }
+
+    .st{
+      margin: 12px 20px;
+    }
+  }
+
 
 
   @media screen and (max-width: 460px) {
     .top-form .inner-form {
       width: 100%;
       margin: 5px 0;
+    }
+
+    .bottom-form textarea{
+      margin: 10px 0;
+    }
+
+    .inner-form input{
+      margin: 10px 0;
     }
 
     .top-form,

@@ -8,6 +8,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="style/home.css">
   <link rel="stylesheet" href="style/about.css">
+  <link rel="stylesheet" href="style/responsive.css">
 </head>
 
 
@@ -18,7 +19,7 @@
         <span><img src="images/Mask Group 22.png" alt="">Mr. Parvindar(परविन्दर)</span>
       </div>
       <div class="second_span">
-        <span><img style="width:14px; height:13px;" src="images/Mask Group 5.png" alt="">+91 9015608586</span>
+        <span><img src="images/Mask Group 5.png" alt="">+91 9015608586</span>
       </div>
     </div>
 
@@ -31,21 +32,23 @@
     </div>
   </header>
 
-  <nav class="navbar">
+  <nav class="navbar second">
     <div class="first_nav">
-      <img src="images/icon.png" alt="nothing">
+       <img src="images/icon.png" alt="nothing">
     </div>
     <div class="second_nav">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="weddingPlaner.html">Wedding Planner</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="Gallary.html">Gallary</a></li>
-        <li><a href="contact.html">Conatct Us</a></li>
-      </ul>
+      <button style=" padding: 5px 20px; background-color: hotpink; border: none; outline: none; border-radius: 5px; color: #FFFFFF;" class="burger">Menu</button>
+      <!-- <p style="color: hotpink; font-weight:bold; text-transform: capitalize; padding: 0; margin: 0;" id="men">menu</p> -->
+       <ul class="fing v-class-resp">
+          <li ><a  href="index.html">Home</a></li>
+          <li ><a  href="about.html">About Us</a></li>
+          <li ><a  href="weddingPlaner.html">Wedding Planner</a></li>
+          <li ><a  href="services.html">Services</a></li>
+          <li ><a  href="Gallary.html">Gallary</a></li>
+          <li ><a href="contact.html">Conatct Us</a></li>
+       </ul>
     </div>
-  </nav>
+ </nav>
 
 
   <div class="tal">
@@ -88,24 +91,13 @@
       </div>
 
       <div class="welcome_img">
-        <img style="position: absolute;width: 310px;
-          top: -160px;
-          left: 110px;
-          height: auto; filter: brightness(100%);" class="opacity_img" src="images/Path 12028.png" alt="">
+        <img  class="opacity_img" src="images/Path 12028.png" alt="">
         <img src="images/Group 359.png" alt="">
       </div>
 
     </div>
 
   </div>
-
-  <!-- photo section  -->
-
-  <!-- <div class="photo">
-        <img src="images/20220413_213037.png" alt="">
-        <img src="images/IMG-20220516-WA0092.png" alt="">
-        <img src="images/IMG-20220611-WA0003.png" alt="">
-      </div> -->
 
 
   <div class="img-wed">
@@ -122,12 +114,6 @@
   
 
   </div>
-  <!-- <div class="arrows">
-    <div  class="ft prev-arrow"><img  src="images/Group 355.png" alt=""></div>
-    <div class="st next-arrow"><img src="images/Group 71083.png" alt=""></div>
- </div> -->
-
-  <!-- footer  -->
 
   <footer>
     <div class="aboutUs">
@@ -198,13 +184,13 @@
 
 
 
-  <div class="second_footer">
-    <div>
-      <p>© Copyright All Right Reserved M/S Doliwala डोलीवाला Events LLP ® Registered Trademark</p>
-      <p> Designed & Developed By Kushel Digi Solutions</p>
-    </div>
+  <div  class="another_footer">
+    <p >
+      © Copyright All Right Reserved M/S Doliwala डोलीवाला Events LLP ® Registered Trademark
+    </p>
+    <p >Designed & Developed By Kushel Digi Solutions</p>
+</div>
 
-  </div>
 </body>
 <script>
   const activePage = window.location.pathname;
@@ -214,6 +200,15 @@
       console.log(link);
     }
   })
+
+  let burger = document.querySelector('.burger');
+   let second = document.querySelector('.second');
+   let fing = document.querySelector('.fing');
+   let navbar = document.querySelector('.navbar');
+   burger.addEventListener('click',()=>{
+      fing.classList.toggle('v-class-resp');
+      navbar.classList.toggle('second');
+   })
 </script>
 
 </html>

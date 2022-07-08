@@ -11,13 +11,8 @@
       crossorigin="anonymous" referrerpolicy="no-referrer" />
    <link rel="stylesheet" href="style/home.css">
    <link rel="stylesheet" href="style/index.css">
+   <link rel="stylesheet" href="style/responsive.css">
 </head>
-
-<style>
-
-
-
-</style>
 
 <body>
    <audio autoplay src="Tera Naam Ishq Mera Naam Ishq.mp3"></audio>
@@ -28,7 +23,7 @@
             <span><img src="images/Mask Group 22.png" alt="">Mr. Parvindar(परविन्दर)</span>
          </div>
          <div class="second_span">
-            <span><img style="width:14px; height:13px;" src="images/Mask Group 5.png" alt="">+91 9015608586</span>
+            <span><img  src="images/Mask Group 5.png" alt="">+91 9015608586</span>
          </div>
       </div>
 
@@ -41,18 +36,20 @@
       </div>
    </header>
 
-   <nav class="navbar">
+   <nav class="navbar second">
       <div class="first_nav">
          <img src="images/icon.png" alt="nothing">
       </div>
-      <div class="second_nav">
-         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="weddingPlaner.html">Wedding Planner</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="Gallary.html">Gallary</a></li>
-            <li><a href="contact.html">Conatct Us</a></li>
+      <div class="second_nav ">
+         <button style=" padding: 5px 20px; background-color: hotpink; border: none; outline: none; border-radius: 5px; color: #FFFFFF;" class="burger">Menu</button>
+        <!-- <p style="color: hotpink; font-weight:bold; text-transform: capitalize; padding: 0; margin: 0;" id="men">menu</p> -->
+         <ul class="fing v-class-resp">
+            <li ><a  href="index.html">Home</a></li>
+            <li ><a  href="about.html">About Us</a></li>
+            <li ><a  href="weddingPlaner.html">Wedding Planner</a></li>
+            <li ><a  href="services.html">Services</a></li>
+            <li ><a  href="Gallary.html">Gallary</a></li>
+            <li ><a href="contact.html">Conatct Us</a></li>
          </ul>
       </div>
    </nav>
@@ -71,7 +68,7 @@
    <div class="welcome">
       <div class="welcome_flex">
          <div class="wel">
-            <h1>Welcome to DoliWala <br> डोलीवाला Events & Weeding </h1>
+            <h1>Welcome to DoliWala <br> डोलीवाला Events & Wedding </h1>
             <p>During the vidai ceremony the bride is accompanied by her parents and associates, which lead her outside
                the doorstep of the house. Before crossing the doorstep, she throws back three handfuls of rice and coins
                over her head, into the house. This symbolizes that the bride is repaying her parents for all that they
@@ -415,12 +412,19 @@
 
 
 
-   <div class="second_footer">
+   <!-- <div class="second_footer">
       <div>
          <p>© Copyright All Right Reserved M/S Doliwala डोलीवाला Events LLP ® Registered Trademark</p>
          <p> Designed & Developed By Kushel Digi Solutions</p>
       </div>
 
+   </div> -->
+
+   <div  class="another_footer">
+       <p >
+         © Copyright All Right Reserved M/S Doliwala डोलीवाला Events LLP ® Registered Trademark
+       </p>
+       <p >Designed & Developed By Kushel Digi Solutions</p>
    </div>
 
 
@@ -458,6 +462,16 @@
       slides[slideIndex - 1].style.display = "block";
       dots[slideIndex - 1].className += " active";
    }
+
+   let burger = document.querySelector('.burger');
+   let navbar = document.querySelector('.navbar')
+   // let second = document.querySelector('.second');
+   let fing = document.querySelector('.fing');
+
+   burger.addEventListener('click',()=>{
+      fing.classList.toggle('v-class-resp');
+       navbar.classList.toggle('second');
+   })
 </script>
 
 <script>
@@ -500,5 +514,7 @@
       }
    })
 </script>
+
+
 
 </html>

@@ -33,13 +33,15 @@ body{
 }
 
 .first_head img{
-  
    margin: 0 8px;
    width: 15px;
    height: 15px;
 }
 
-
+ .second_span img{
+    width: 14px;
+    height: 13px;
+ }
 .second_head{
     display: flex;
     padding: 0 20px;
@@ -53,7 +55,16 @@ body{
     width: 20px ;
     height: 20px;
 }
+.v-class-resp{
+   visibility: visible;
+}
 
+.second{
+    height: auto;
+}
+.second_nav button{
+    display: none;
+}
 .navbar{
     display: flex;
     align-items: center;
@@ -263,5 +274,16 @@ footer .contact .doliWala_textImg{
     text-align: center;
     color:#FFFFFF;
     font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.another_footer{
+    background-color: #222222; padding: 20px 10px;
+}
+
+.another_footer p{
+    text-align:center ; color: #FFFFFF;
+    font-size: 12.2px;
+    line-height: 24px;
     font-family: 'Poppins', sans-serif;
 }

@@ -333,7 +333,7 @@
  .swiper-slide .card {
    max-width: 100%;
    width: 320px;
-    height: 370px;
+   height: auto;
     padding: 12px 12px;
     background-color: #FFFFFF;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -504,3 +504,165 @@ to {opacity: 1}
 .prev, .next,.text {font-size: 11px}
 }
  
+
+@media only screen and (max-width:1181px) {
+   /* ==========other section=========== */
+   .tal{
+      height: 70vh;
+   }
+   .sect h1{
+      font-size: 25px;
+   }
+
+   .sect{
+      left: 10%;
+   }
+
+   .sect p{
+      font-size: 13px;
+       max-width: 283px;
+       width: 100%;
+   }
+
+   /* ===========another=========== */
+
+   .welcome .welcome_flex{
+      flex-direction: column;
+      padding: 50px 30px;
+   }
+
+.welcome_flex .welcome_img{
+   margin-top: 25px;
+}
+
+   .welcome_flex .wel{
+      width: 100%;
+      padding: 0px 0px;
+      margin-left: 0;
+   }
+
+  .welcome .wel h1{
+   font-size: 23px;
+   line-height: 30px;
+  }
+
+  .welcome .wel p{
+   font-size: 16px;
+   margin-right: 0px;
+  }
+
+  main .opacity_img{
+   width: 95px;
+   top: -22px;
+  }
+  /* =======img wed section======== */
+ 
+
+  /* ===================doliwala utube===================== */
+  .doliwala_utube .doliwalaU_flex{
+   flex-direction: column;
+   padding: 50px 30px;
+  }
+
+  .doliwalaU_flex .utube_para{
+     padding: 0 0;
+     margin-left: 0px;
+     width: 100%;
+  }
+
+  .doliwalaU_flex .utube_para h1{
+   width: auto;
+   font-size: 25px;
+  }
+
+  .doliwalaU_flex .utube_para p{
+   margin-right: 0px;
+  }
+
+  .doliwalaU_flex .utube_video{
+   margin-right: initial;
+   margin-top: 20px;
+  }
+
+  .ev_gallary{
+   padding: 50px 30px;
+  }
+
+  .ev_sec span{
+   font-size: 25px;
+  }
+  .ev_sec  p{
+   font-size: 13px;
+  }
+
+  .lets_event h2{
+     font-size: 25px;
+  }
+
+  .lets_event p{
+   font-size: 12px;
+  }
+
+  .lets_event{
+   padding: 50px 140px;
+  }
+
+}
+
+@media only screen and (max-width:791px) {
+   .ev_gallary{
+      padding: 50px 30px;
+     }
+   
+     .wds{
+      margin-top: 40px;
+     }
+   
+     .ev_sec span{
+      font-size: 25px;
+     }
+     .ev_sec  p{
+      font-size: 13px;
+     }
+     .img-wed{
+      flex-direction: column;
+       margin: 0px 0px;
+     }
+   
+     .img-wed div{
+      margin: 12px 0;
+     }
+   
+     .img-wed img{
+      margin: 0 0;
+     }
+
+     .swiper-slide .card .fard p{
+      font-size: 11.5px;
+     }
+
+     .lets_event{
+      padding: 50px 140px;
+   }
+}
+
+@media only screen and (max-width:550px) {
+
+   .lets_event{
+      padding: 50px 30px;
+   }
+   .lets_event h2{
+      font-size: 25px;
+   }
+   .lets_event p{
+      font-size: 10px;
+     }
+
+     .lets_event .arrows .prev-arrow img{
+        position: unset;
+     }
+
+     .lets_event .arrows .next-arrow img{
+      position: unset;
+     }
+}
