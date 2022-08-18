@@ -44,7 +44,19 @@
   color: #EC3237;
   font-family: "Roboto Slab", serif;
 }
+.object{
+  object-position: top;
+}
+.object2{
+  object-position: bottom;
+}
+.object4{
+  object-position: top;
+}
 
+.object5{
+  object-position: bottom;
+}
 .update_gallary p {
   text-align: center;
   font-size: 18px;

@@ -25,7 +25,9 @@
     text-align: center;
     font-weight: bolder;
  }
-
+.ser{
+   margin-top: 50px;
+}
  .sect p {
     margin: 10px 0;
     font-size: 16px;
@@ -60,13 +62,13 @@
     
  }
 
+ 
  .wed_plan .wed_para p {
     width: 75%;
     max-width: 100%;
     font-size: 17px;
     line-height: 24px;
     font-weight: 500;
-    /* width: 1376px; */
     display: block;
     margin: auto;
     text-align: center;
@@ -74,9 +76,75 @@
 
  }
 
- .wed_plan .wed_para .second-para {
-    margin-top: 20px;
+ .wed_para ol{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
  }
+
+ .wed_para ol li{
+   line-height: 24px;
+   text-align: center;
+   font-weight: 500;
+   margin: 10px 0px;
+   font-size: 17px;
+   font-family: 'Poppins', sans-serif;
+ }
+
+ .wed-sara ol{
+   /* display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+   margin-top: 20px; */
+   width: 100%;
+   display: grid;
+   justify-content: center;
+   
+
+ }
+
+ .wed-sara ol li{
+   line-height: 24px;
+   font-weight: 500;
+   margin: 10px 0px;
+   font-size: 17px;
+   font-family: 'Poppins', sans-serif;
+ }
+.wed-sara ol h1{
+  margin: 0 -20px;
+}
+ 
+ .wed-sara ol p{
+   margin: 20px -20px;
+   font-size: 17px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+ }
+
+ .wed-sara ol a{
+   text-decoration: none;
+   color: #000000;
+ }
+
+ .wed_plan .wed_para .second-para {
+   margin-top: 20px;
+}
+
+.wed_plan .wed_para .third-para {
+   margin-top: 20px;
+}
+
+.wed_plan .wed_para .fourth-para {
+   margin-top: 20px;
+}
+
+.wed_plan .wed_para .fifth-para {
+   margin-top: 20px;
+}
 
 
  /* ==============gel sec style start =============== */
@@ -400,6 +468,7 @@
    .tal{
       height: 70vh;
    }
+  
    .sect h2{
       font-size: 25px;
    }
@@ -421,6 +490,8 @@
    .wed_plan .wed_para p{
       width: 100%;
    }
+
+   
 }
 
 @media only screen and (max-width:977px) {
@@ -430,6 +501,22 @@
       align-items: center;
       padding: 0px 0px;
    }
+
+  .wed-sara ol li {
+   margin: 10px 20px;
+  }
+
+  .wed-sara ol h1{
+   margin: 0px 0px;
+  }
+
+  .wed-sara ol p{
+   margin: 0 0px;
+  }
+
+  .wed_para ol li{
+   margin: 10px 20px;
+  }
    /* in zero mai 10 lagana hai  */
 
    .firstImg {

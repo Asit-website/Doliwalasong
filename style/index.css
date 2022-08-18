@@ -228,13 +228,15 @@
 
  .doliwalaU_flex .utube_para {
     padding: 0px 60px;
-    width: 80%;
+    width: 77%;
     margin-left: 30px;
  }
 
  .doliwalaU_flex .utube_video {
     margin-right: 60px;
  }
+
+ 
 
  
  iframe {
@@ -329,14 +331,14 @@
  .swiper-slide .card {
    max-width: 100%;
    width: 320px;
-   height: auto;
+   height: 390px;
+   max-height: 100%;
+   overflow: auto;
     padding: 12px 12px;
     background-color: #FFFFFF;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     object-fit: cover;
     border-radius: 8px;
-
-    /* border-radius: 10px; */
  }
 
  .swiper-slide .card:hover{
@@ -350,6 +352,10 @@
 .swiper-slide .card .fard{
  position: relative;
  
+}
+
+.swiper-slide .card .fard .western{
+   object-position: top;
 }
  .swiper-slide .card .fard img {
     max-width: 280px;
@@ -506,6 +512,7 @@ to {opacity: 1}
    .tal{
       height: 70vh;
    }
+  
    .sect h1{
       font-size: 25px;
    }
@@ -602,6 +609,7 @@ to {opacity: 1}
   .lets_event{
    padding: 50px 140px;
   }
+
 
 }
 
