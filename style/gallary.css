@@ -225,7 +225,7 @@
   margin: 0 15px;
 }
 .ant1 {
-  margin: 0 15px;
+  margin: 0px 15px;
 }
 
 .ant1 img {
@@ -237,7 +237,7 @@
 }
 
 .ant2 {
-  margin: 0 15px;
+  margin: 0px 15px;
 }
 
 .ant2 img {
@@ -263,7 +263,7 @@
 }
 
 .another4 {
-  margin: 0 15px;
+  margin: 25px 15px;
 }
 
 .another4 img {
@@ -323,7 +323,11 @@
   }
 
   .gelexy_flex .gelexy_first {
-    margin: 10px 0px;
+    margin: 0px 0px;
+  }
+
+  .gelexy_flex .foty{
+    margin-top: 10px;
   }
 
   .subconcious .subconcious_flex {
