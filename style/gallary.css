@@ -314,8 +314,16 @@
     flex-direction: column;
   }
 
+  .ant1 {
+   margin: 10px 0px;
+  }
+
+  .ant2{
+    margin: 10px 0px;
+  }
+
   .gelexy_flex .gelexy_first {
-    margin: 0px 0px;
+    margin: 10px 0px;
   }
 
   .subconcious .subconcious_flex {
@@ -333,14 +341,14 @@
     margin: 10px 0;
   }
   .another1 {
-    margin: 0px 0px;
+    margin: 10px 0px;
   }
   .another2 {
     margin: 20px 0;
   }
 
   .another3 {
-    margin: 0px 0px;
+    margin: 10px 0px;
   }
 
   .another4 {
