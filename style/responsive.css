@@ -71,6 +71,10 @@
      footer .aboutUs .about_image img{
       width: 25px;
      }
+
+     .doliwala_try{
+      justify-content: center;
+     }
 }
 
 @media only screen and (max-width:791px) {
