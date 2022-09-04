@@ -4,9 +4,9 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-    background-image: url('../images/20220219_213126.png'), radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    background-image: url('../images/about.jpeg'), radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     background-blend-mode: darken;
-
+   
   }
 
   .sect {
