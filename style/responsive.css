@@ -1,4 +1,77 @@
-@media only screen and (max-width:1181px) {}
+@media only screen and (max-width:1050px) {
+   footer{
+      flex-direction: column;
+      align-items: center;
+     }
+     footer{
+      flex-direction: column;
+      align-items: center;
+     }
+
+     footer .aboutUs span{
+      font-size: 16px;
+     }
+
+     footer .aboutUs  .about_para p{
+       font-size: 12px;
+       line-height: 21px;
+     }
+
+     footer .aboutUs{
+      text-align: center;
+     }
+
+     footer .aboutUs  .about_image{
+      margin-left: auto;
+     }
+
+     footer .Information{
+       text-align: center;
+       margin-top: 25px;
+     }
+
+     footer .Information span{
+      font-size: 16px;
+     }
+
+     footer .Information .anchor_information a{
+      font-size: 12px;
+     }
+
+     footer .contact{
+      text-align: center;
+      margin-top: 25px;
+     }
+     
+
+     footer .contact span{
+      font-size: 16px;
+     }
+
+     footer .contact .contact_para p{
+      font-size: 12px;
+     }
+
+     footer .contact .doliWala_textImg{
+      margin-top: 25px;
+     }
+
+     .dir{
+      font-size: 12px;
+     }
+
+     .get_in{
+      margin-top: 25px;
+     }
+
+     .get_in span{
+      font-size: 16px;
+     }
+
+     footer .aboutUs .about_image img{
+      width: 25px;
+     }
+}
 
 @media only screen and (max-width:791px) {
     .head{

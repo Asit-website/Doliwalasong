@@ -49,8 +49,11 @@
   outline: none;
   border: none;
   border-radius: 8px;
+  cursor: pointer;
   margin: 18px 0;
 }
+
+
 
 /* welocom css start  */
 .welcome {
@@ -133,7 +136,12 @@ section div {
   outline: none;
   border: none;
   border-radius: 8px;
-  margin: 25px auto;
+  margin: 60px auto;
+  cursor: pointer;
+}
+
+.ev_gallary a{
+  text-decoration: none;
 }
 
 .ev_gallary .ev_sec {
@@ -359,7 +367,7 @@ section div p {
 
 .swiper-slide .card .fard p {
   font-family: "Poppins", sans-serif;
-  font-size: 13.5px;
+  font-size: 12.5px;
   line-height: 20px;
   font-weight: 500;
   padding: 5px 9px;
@@ -391,9 +399,9 @@ section div p {
   object-position: bottom;
   max-width: 100%;
   width: 614px;
-  height: 450px;
+  height: 370px;
   object-fit: cover;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 /* Slideshow container */
 .slideshow-container {

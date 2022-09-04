@@ -77,11 +77,20 @@
 .contas{
   background-color:#222222 ; padding: 60px 60px;
 }
+.contas p{
+  margin-top: 20px;
+  text-align: center;
+  color: #EC3237;
+  font-size: 24px;
+  height: 33px;
+  font-family: 'Poppins', sans-serif;
+  
+}
 
 
   /* ==========conatct form end=============== */
   .wrapper {
-    margin: 0px auto 0;
+    margin: 10px auto 0;
     width: 100%;
     max-width: 1720px;
     padding: 20px;
@@ -202,6 +211,9 @@
    }
    .how p{
     font-size: 13px;
+   }
+   .contas p{
+    font-size: 16px;
    }
 
   }

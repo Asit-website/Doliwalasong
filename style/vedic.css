@@ -4,78 +4,78 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-    background-image: url('../images/5ad72e04-b506-11e7-8a2a-0e141a3020b2.png'), radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    background-image: url('../images/e206646bd9f76c5483478186bd47a618.png'), radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     background-blend-mode: darken;
 
-  }
+}
 
-  .sect {
+.sect {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-  }
+}
 
 
-  .sect h2 {
+.sect h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
     font-size: 32px;
     color: #FAE425;
     text-align: center;
-    font-family: 'Roboto Slab', serif;
-    font-weight: bolder;
-  }
+}
 
-  .sect p {
+.sect p {
     margin: 10px 0;
     font-size: 24px;
     font-family: 'Poppins', sans-serif;
-  }
+}
 
-  .beach {
+.beach {
     background-image: url('../images/Rectangle 206.png');
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding: 100px 60px;
-  }
+}
 
-  .beach .first_beach {
-  
+.beach .first_beach {
     padding: 0px 60px;
     width: 60%;
     margin-left: 30px;
-  }
+}
 
-  .beach .first_beach h1 {
+.beach .first_beach h1 {
     color: #FD4434;
     max-width: 100%;
     line-height: 38px;
-    font-weight: bolder;
     font-size: 35px;
     font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+}
 
-  }
-
-  .beach .first_beach p {
+.beach .first_beach p {
     color: #000000;
     margin-top: 10px;
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
     line-height: 25px;
     font-weight: 500;
-  }
+}
 
-  .beach .second_beach img {
+
+.beach .second_beach img {
     max-width: 100%;
     margin-left: -4px;
     position: relative;
     width: 300px;
     height: 200px;
     object-fit: cover;
-  }
+    object-position: bottom;
+}
 
-  .beach button {
+.beach button {
     width: 180px;
     height: 50px;
     background-color: #EC3237;
@@ -86,24 +86,21 @@
     border: none;
     border-radius: 8px;
     margin: 25px 0;
+}
 
-  }
-
-
-  .img-wed {
-
+.img-wed {
     padding: 100px 60px;
     margin: 0 60px;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
 
-  .img-wed div {
+.img-wed div {
     margin: 0 10px;
-  }
+}
 
-  .img-wed img {
+.img-wed img {
     object-fit: cover;
     max-width: 100%;
     width: 480px;
@@ -111,9 +108,9 @@
     object-position: bottom;
     margin: 0 10px;
     border-radius: 5px;
-  }
+}
 
-  @media only screen and (max-width:1181px){
+@media only screen and (max-width:1181px){
     .tal{
       height: 70vh;
    }

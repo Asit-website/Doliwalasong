@@ -95,16 +95,9 @@
  }
 
  .wed-sara ol{
-   /* display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: flex-start;
-   margin-top: 20px; */
    width: 100%;
    display: grid;
    justify-content: center;
-   
-
  }
 
  .wed-sara ol li{
@@ -174,7 +167,6 @@
     max-width: 100%;
     width: 554px;
     height: auto;
-    /* margin: 0 6px; */
     filter: brightness(.5);
     object-fit: cover;
 
@@ -192,6 +184,26 @@
     z-index: 1;
     white-space: nowrap;
  }
+ .firstImg small{
+   position: absolute;
+  top: 50%;
+   font-family: 'Raleway', sans-serif;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   font-size: 13px;
+   font-weight: 500;
+   z-index: 1;
+   text-align: center;
+   display: none;
+   line-height: 20px;
+   
+ }
+
+ .firstImg:hover small{
+   display: block;
+   transition: all 0.5s;
+ }
 
  .gel-sec .gelsec_flex .thirdImg {
     position: relative;
@@ -204,7 +216,6 @@
     max-width: 100%;
     width: 554pxpx;
     height: auto;
-    /* margin: 0 6px; */
     filter: brightness(0.5);
  }
 
@@ -219,7 +230,26 @@
     font-weight: 600;
     white-space: nowrap;
  }
+  
+ .thirdImg small{
+   font-family: 'Raleway', sans-serif;
+   position: absolute;
+  top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   font-size: 13px;
+   font-weight: 500;
+   text-align: center;
+   z-index: 1;
+   display: none;
+   line-height: 20px;
+ }
 
+ .thirdImg:hover small{
+   transition: all 0.5s;
+   display: block;
+ }
  .complicate {
     position: relative;
     
@@ -259,6 +289,25 @@
    white-space: nowrap;
  }
 
+ .complicate_first small{
+   position: absolute;
+   font-family: 'Raleway', sans-serif;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   font-size:10px;
+   font-weight: 500;
+   z-index: 1;
+   text-align: center;
+   display: none;
+ }
+
+ .complicate_first:hover small{
+   transition: all 0.5s;
+   display: block;
+ }
+
  .complicate .complicate_second {
     position: relative;
     margin: 0 10px;
@@ -281,7 +330,25 @@
     font-size: 15px;
     font-weight: 600;
     white-space: nowrap;
+ }
 
+ .complicate_second small{
+   position: absolute;
+   font-family: 'Raleway', sans-serif;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   font-size:10px;
+   font-weight: 500;
+   z-index: 1;
+   text-align: center;
+   display: none;
+ }
+
+ .complicate_second:hover small{
+   transition: all 0.5s;
+   display: block;
  }
 
  .secondimgLower {
@@ -308,6 +375,26 @@
     white-space: nowrap;
  }
 
+ .secondimgLower small{
+   position: absolute;
+   font-family: 'Raleway', sans-serif;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   font-size:13px;
+   font-weight: 500;
+   z-index: 1;
+   text-align: center;
+   display: none;
+   line-height: 20px;
+ }
+
+ .secondimgLower:hover small{
+   transition: all 0.5s;
+   display: block;
+ }
+
  /* =======subconcious part css============ */
 
  .gelexy_flex {
@@ -327,7 +414,6 @@
     filter: brightness(0.5);
   width: 857px;
   height: auto;
-    /* margin: 0 6px; */
     max-width: 100%;
  }
 
@@ -343,6 +429,25 @@
     white-space: nowrap;
  }
 
+ .gelexy_first small{
+   font-family: 'Raleway', sans-serif;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   font-size: 13px;
+   font-weight: 500;
+   text-align: center;
+   z-index: 1;
+   line-height: 20px;
+   display: none;
+ }
+
+ .gelexy_first:hover small{
+   transition: all 0.5s;
+   display: block;
+ }
  .subconcious .subconcious_flex{
     position: relative;
     display: flex;
@@ -374,6 +479,25 @@
     white-space: nowrap;
  }
 
+ .subconcious_flex_first small {
+   font-family: 'Raleway', sans-serif;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   font-size: 13px;
+   font-weight: 500;
+   text-align: center;
+   line-height: 20px;
+   display: none;
+ }
+
+ .subconcious_flex_first:hover small{
+   transition: all 0.5s;
+   display: block;
+ }
+
  .subconcious .subconcious_flex_second {
     position: relative;
     margin: 0 10px;
@@ -398,9 +522,28 @@
     white-space: nowrap;
  }
 
+ .subconcious_flex_second small{
+   font-family: 'Raleway', sans-serif;
+   position: absolute;
+   top:50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   font-size: 13px;
+   font-weight: 500;
+   text-align: center;
+   line-height: 18px;
+   display: none;
+ }
+
+ .subconcious_flex_second:hover small{
+   transition: all 0.5s;
+   display: block;
+ }
+
  .secondLowersite {
     position: relative;
-    margin: 15px 10px;
+    margin: 0px 10px;
  }
 
  .secondLowersite img{
@@ -420,6 +563,26 @@
     font-size: 15px;
     white-space: nowrap;
     font-weight: 600;
+ }
+
+ .secondLowersite small{
+   font-family: 'Raleway', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 13px;
+   z-index: 1;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    display: none;
+ }
+
+ .secondLowersite:hover small{
+   transition: all 0.5s;
+   display: block;
  }
 
  .ThemeWeed{
@@ -449,6 +612,27 @@
     font-weight: 600;
     white-space: nowrap;
  }
+ .ThemeWeed small
+ {
+   font-family: 'Raleway', sans-serif;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   font-size: 13px;
+   font-weight: 600;
+   text-align: center;
+   line-height: 20px;
+   z-index: 1;
+   display: none;
+ }
+
+ .ThemeWeed:hover small{
+   transition: 0.5s;
+   display: block;
+ }
+
 .btn{
  display: block;
     width: 150px;

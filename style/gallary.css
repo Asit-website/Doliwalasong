@@ -8,6 +8,64 @@
     radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   background-blend-mode: darken;
 }
+.pagination{
+	width: 100%;
+	float: left;
+	padding:15px;
+	text-align: center;
+}
+ .pagination div{
+	display: inline-block;
+	margin:0 10px;
+}
+ .pagination .page{
+	color:gray;
+}
+ .pagination .prev, .pagination .next{
+ color:#000;
+ border:1px solid #000;
+ font-size:15px;
+ padding:7px 15px;
+ cursor: pointer;
+}
+
+ .pagination .prev.disabled,
+ .pagination .next.disabled{
+	border-color: gray;
+	color:gray;
+	pointer-events: none;
+}
+
+.gallery-items .fanother.hide{
+   display: none;
+}
+
+.gallery-items .fanother.show{
+	display: block;
+	animation: show .5s ease;
+}
+
+@keyframes show{
+  0%{
+    opacity:0;
+    transform: scale(0.9);
+  }
+  100%{
+    opacity:1;
+    transform: scale(1);
+  }
+}
+
+.pagination .prev, .pagination .next{
+  color:#000;
+  border:1px solid #000;
+  font-size:15px;
+  padding:7px 15px;
+  cursor: pointer;
+ }
+
+
+
 
 .sect {
   position: absolute;
@@ -146,19 +204,31 @@
   border-radius: 8px;
 }
 
-.another {
+.ant{
   display: flex;
   align-items: center;
   justify-content: center;
-  /* padding: 0px 30px; */
-  /* margin: 20px 0; */
 }
 
-.another1 {
+
+
+.another {
+  float: left;
+	width:50%;
+	position: relative;
+  margin: 20px 0px;
+}
+.another1{
+  margin: 0 15px;
+}
+.another2 {
+  margin: 0 15px;
+}
+.ant1 {
   margin: 0 15px;
 }
 
-.another1 img {
+.ant1 img {
   max-width: 837px;
   max-height: 100%;
   width: 100%;
@@ -166,11 +236,11 @@
   height: auto;
 }
 
-.another2 {
+.ant2 {
   margin: 0 15px;
 }
 
-.another2 img {
+.ant2 img {
   height: auto;
   width: 100%;
   max-width: 841px;
@@ -233,6 +303,10 @@
   .another {
     flex-direction: column;
     margin: 10px 0;
+  }
+
+  .ant{
+    flex-direction: column;
   }
 
   .gelexy_flex .gelexy_first {

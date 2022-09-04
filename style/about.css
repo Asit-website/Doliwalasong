@@ -78,7 +78,7 @@
   .welcome_flex .wel h1 {
     color: #FD4434;
     max-width: 100%;
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Roboto Slab', serif;
     font-weight: bolder;
   }
@@ -94,14 +94,15 @@
     margin-left: -4px;
     position: relative;
     width: 588px;
-    height: auto;
+    height: 460px;
     object-fit: cover;
+    margin-top: 20px;
   }
 
   .welcome_flex .welcome_img .opacity_img{
     position: absolute;width: 310px;
-          top: -160px;
-          left: 110px;
+          top: -110px;
+          left: 105px;  /* pehle 110 tha*/
           height: auto; filter: brightness(100%);
   }
 
@@ -184,6 +185,14 @@
   /* ........photo section end...... */
 
   /* ============responsive design===================== */
+  @media only screen and (max-width:1230px){
+    
+    .welcome_flex .welcome_img .opacity_img{
+      width: 140px;
+      top: -55px;
+     }
+    
+  }
   @media only screen and (max-width:1181px) {
     .tal{
       height: 70vh;

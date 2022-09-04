@@ -4,7 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-    background-image: url('../images/5ad72e04-b506-11e7-8a2a-0e141a3020b2.png'), radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    background-image: url('../images/ab870c478df249709bafcde574b63369.png'), radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     background-blend-mode: darken;
 
   }
@@ -19,11 +19,11 @@
 
 
   .sect h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
     font-size: 32px;
     color: #FAE425;
     text-align: center;
-    font-family: 'Roboto Slab', serif;
-    font-weight: bolder;
   }
 
   .sect p {
@@ -41,17 +41,17 @@
   }
 
   .beach .first_beach {
-  
+
     padding: 0px 60px;
     width: 60%;
     margin-left: 30px;
   }
 
   .beach .first_beach h1 {
+    font-weight: bolder;
     color: #FD4434;
     max-width: 100%;
     line-height: 38px;
-    font-weight: bolder;
     font-size: 35px;
     font-family: 'Roboto Slab', serif;
 
@@ -65,6 +65,7 @@
     line-height: 25px;
     font-weight: 500;
   }
+
 
   .beach .second_beach img {
     max-width: 100%;
@@ -89,9 +90,7 @@
 
   }
 
-
   .img-wed {
-
     padding: 100px 60px;
     margin: 0 60px;
     display: flex;

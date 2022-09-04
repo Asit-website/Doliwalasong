@@ -36,6 +36,19 @@
     padding: 100px 60px;
   }
 
+  .services .se-para{
+    width: 80%;
+    max-width: 100%;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 500;
+    display: block;
+    margin:60px auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+  }
+
   .services h1 {
     text-align: center;
     font-size: 35px;
@@ -130,7 +143,7 @@
   } 
   
   .service_flex .last_image_first{
-    position: absolute; top:23%; left:30%; width: 35px;
+    position: absolute; top:23%; left:28%; width: 35px;
   }
   .service_flex p {
     font-size: 15px;
@@ -189,28 +202,28 @@
     max-width: 100%;
     margin-left: -4px;
     position: relative;
-    width: 695px;
-    height: 410px;
+    width: 450px;
+    height: 200px;
     object-fit: cover;
   }
 
-  .second_img img {
+  .second_img iframe {
     max-width: 100%;
     margin-left: -4px;
     position: relative;
-    width: 680px;
-    height: auto;
+    width: 600px;  /* 680 */
+    height: 370px;
     object-fit: cover;
 
   }
 
 
-  .third_img img {
+  .third_img iframe {
     max-width: 100%;
     margin-left: -4px;
     position: relative;
-    width: 604px;
-    height: auto;
+    width: 600px;
+    height: 370px;
     object-fit: cover;
   }
 
@@ -334,13 +347,19 @@
 
     .services_third_flex{
       margin-top: 25px;
+      margin-left: 30px;
     }
 
     .services_fourth_flex{
       margin-top: 25px;
+      margin-left: 30px;
     }
 
     .service_flex .Third_image_first{
       margin-left: 35px;
+    }
+
+    .services .se-para{
+      width: 95%;
     }
   }

@@ -213,10 +213,11 @@ footer .contact .contact_para{
 }
 
 footer .contact .contact_para p{
-     margin: 5px 0;
+     margin: 1px 0;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
     color: #FFFFFF;
+    line-height: 23px;
 }
 
 footer .contact .doliWala_textImg{
@@ -287,4 +288,8 @@ footer .contact .doliWala_textImg{
     font-size: 12.2px;
     line-height: 24px;
     font-family: 'Poppins', sans-serif;
+}
+
+.another_footer a{
+    text-decoration: none;
 }
