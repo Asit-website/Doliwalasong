@@ -14,6 +14,19 @@ document.write(`<footer>
     <a target="-blank" href="https://play.google.com/store/apps/details?id=com.koo.app&referrer=adjust_reftag%3DcNPtdRri1ueyH%26utm_source%3DKoo_Website%26utm_campaign%3Dshare_dnld_link"><img src="images/Mask Group 10.png" alt="so"></a>
     <a target="-blank" href="https://youtube.com/channel/UCqMQTrx_gCy0WSjfStYIVeA"><img src="images/Mask Group 11.png" alt="be"></a>
   </div>
+  <div class="other-brands">
+  <span>Our other brands</span>
+  <div class="brand">
+      <a target="_blank" href="http://www.palkiwala.com/"><img src="images/logo doliwala.png" alt=""></a>
+      <a target="_blank" href="http://www.palkiwala.com/">Doliwala डोलीवाला Band <br/>
+      The Luxury Wedding Band</a>
+  </div>
+  <div class="brand">
+     <a target="_blank"  href="www.doliwalaband.com" > <img src="images/ds.jpeg" alt=""></a>
+      <a target="_blank"  href="www.doliwalaband.com">Palkiwala पालकीवाला <br/> The  Wedding Planner</a>
+  </div>
+</div>
+
 </div>
 <div class="Information">
   <span>Information</span>

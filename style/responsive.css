@@ -75,6 +75,27 @@
      .doliwala_try{
       justify-content: center;
      }
+     
+     .other-brands span{
+      font-size: 16px;
+     }
+     .brand img{
+      width: 30px ;
+      display: block;
+     margin: auto;
+      height: 30px;
+     }
+
+     .brand{
+       display: grid;
+       justify-content: center;
+       margin: 15px 0px;
+     }
+
+     .brand a{
+       font-size: 12px;
+       margin-top: 10px;
+     }
 }
 
 @media only screen and (max-width:791px) {

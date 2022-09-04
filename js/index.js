@@ -8,6 +8,7 @@ template.innerHTML = `<div><header class="head">
    </div>
    <div class="second_span">
       <span><img src="images/Mask Group 5.png" alt="">+91 9015608586</span>
+      <span><img src="images/Mask Group 5.png" alt="">+91 9818411586</span>
    </div>
 </div>
 </header>
