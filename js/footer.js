@@ -54,7 +54,7 @@ document.write(`<footer>
     </div>
     <div class="doliwala_try" style="display:flex ;margin-top: 18px;">
       <img style="width:17px ; height:17px;" src="images/Mask Group 5.png" alt="">
-      <p class="dir">+91 9015608586, +91 9873665082</p>
+      <p class="dir">+91 9015608586, +91 9818411586</p>
     </div>
 
     <div class="doliwala_try" style="display: flex; margin-top: 18px;">
