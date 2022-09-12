@@ -9,6 +9,7 @@ body{
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@600&family=Roboto+Slab&family=Ubuntu:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@600&family=Raleway&family=Roboto+Slab&family=Ubuntu:wght@700&display=swap');
+
 .head{
     background-color: #EC3237;
     width: 100%;
@@ -72,6 +73,7 @@ body{
     width: 100%;
     padding: 12px 50px;
     background-color: #FFFFFF;
+    
 }
 
 .first_nav{
@@ -164,6 +166,14 @@ footer .aboutUs .about_image{
 
 footer .aboutUs .about_image img{
     margin: 0 10px;
+    width: 30px;
+}
+
+footer .aboutUs .about_image .koo{
+    border-radius: 20px;
+}
+footer .aboutUs .about_image .pinter{
+    border-radius: 20px;
 }
 
 footer .Information span{

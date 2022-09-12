@@ -11,19 +11,21 @@ document.write(`<footer>
     <a target="_blank" href="https://instagram.com/doliwala_events_and_wedding?igshid=YmMyMTA2M2Y="><img src="images/Mask Group 12.png" alt="ja"></a>
     <a target="_blank" href="https://www.facebook.com/doliwalaevents/"><img src="images/Mask Group 6.png" alt="no"></a>
     <a target="-blank" href="https://twitter.com/doliwalaevents?t=h0mVouDjALrc0QEeGZ2r7Q&s=09"><img src="images/Mask Group 8.png" alt="it"></a>
-    <a target="-blank" href="https://play.google.com/store/apps/details?id=com.koo.app&referrer=adjust_reftag%3DcNPtdRri1ueyH%26utm_source%3DKoo_Website%26utm_campaign%3Dshare_dnld_link"><img src="images/Mask Group 10.png" alt="so"></a>
+    <a target="-blank" href="https://www.kooapp.com/profile/doliwalaeventsandwedding "><img class="koo"  src="images/koo.png" alt="so"></a>
+    <a target="-blank" href="https://pin.it/7hBwKIG"><img class="pinter" src="images/pinu.png" alt="be"></a>
     <a target="-blank" href="https://youtube.com/channel/UCqMQTrx_gCy0WSjfStYIVeA"><img src="images/Mask Group 11.png" alt="be"></a>
+    
   </div>
   <div class="other-brands">
   <span>Our other brands</span>
   <div class="brand">
-      <a target="_blank" href="http://www.palkiwala.com/"><img src="images/logo doliwala.png" alt=""></a>
-      <a target="_blank" href="http://www.palkiwala.com/">Doliwala डोलीवाला Band <br/>
+      <a target="_blank" href="www.doliwalaband.com"><img src="images/logo doliwala.png" alt=""></a>
+      <a target="_blank" href="www.doliwalaband.com">Doliwala डोलीवाला Band <br/>
       The Luxury Wedding Band</a>
   </div>
   <div class="brand">
-     <a target="_blank"  href="www.doliwalaband.com" > <img src="images/ds.jpeg" alt=""></a>
-      <a target="_blank"  href="www.doliwalaband.com">Palkiwala पालकीवाला <br/> The  Wedding Planner</a>
+     <a target="_blank"  href="http://www.palkiwala.com/" > <img src="images/ds.jpeg" alt=""></a>
+      <a target="_blank"  href="http://www.palkiwala.com/">Palkiwala पालकीवाला <br/> The  Wedding Planner</a>
   </div>
 </div>
 
@@ -54,7 +56,7 @@ document.write(`<footer>
     </div>
     <div class="doliwala_try" style="display:flex ;margin-top: 18px;">
       <img style="width:17px ; height:17px;" src="images/Mask Group 5.png" alt="">
-      <p class="dir">+91 9015608586, +91 9818411586</p>
+      <p class="dir"> <a target="_blank" style="text-decoration:none; color:#ffffff;" href="https://api.whatsapp.com/send/?phone=+919015608586&amp;text= hi">+91 9015608586</a>, +91 9818411586</p>
     </div>
 
     <div class="doliwala_try" style="display: flex; margin-top: 18px;">

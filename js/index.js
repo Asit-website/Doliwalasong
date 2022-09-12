@@ -1,13 +1,13 @@
 
 let meg = document.querySelector("#meg");
 let template = document.createElement('template');
-template.innerHTML = `<div><header class="head">
+template.innerHTML = `<div class="sender"><header class="head">
 <div class="first_head">
    <div class="first_span">
       <span><img src="images/Mask Group 22.png" alt="">Mr. Parvindar(परविन्दर)</span>
    </div>
    <div class="second_span">
-      <span><img src="images/Mask Group 5.png" alt="">+91 9015608586</span>
+   <a style="text-decoration:none;" target="_blank" href="https://api.whatsapp.com/send/?phone=+919015608586&amp;text= hi"><span><img src="images/Mask Group 5.png" alt="">+91 9015608586</span></a> 
       <span><img src="images/Mask Group 5.png" alt="">+91 9818411586</span>
    </div>
 </div>

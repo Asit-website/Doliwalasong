@@ -37,16 +37,21 @@
   }
 
   .services .se-para{
-    width: 80%;
+    width: 85%;
     max-width: 100%;
     font-size: 17px;
     line-height: 26px;
     font-weight: 500;
     display: block;
     margin:60px auto;
-    text-align: center;
+    text-align: justify;
     font-family: 'Poppins', sans-serif;
 
+  }
+
+  .se-para a{
+    text-decoration: none;
+    color: #000000;
   }
 
   .services h1 {
@@ -218,13 +223,21 @@
   }
 
 
-  .third_img iframe {
+  .third_img img {
     max-width: 100%;
     margin-left: -4px;
     position: relative;
     width: 600px;
     height: 370px;
+    object-position: bottom;
     object-fit: cover;
+  }
+
+  .fourth_img img{
+    width: 450px;
+    height:200px;
+    object-fit: cover;
+    max-width: 100%;
   }
 
   .bride .srid {
@@ -279,6 +292,11 @@
 
    .service_flex{
     padding: 0px 0px;
+   }
+
+   .service_flex a{
+      text-decoration: none;
+      color: #000000;
    }
 
    /* ============bride logic================ */
@@ -361,5 +379,6 @@
 
     .services .se-para{
       width: 100%;
+      text-align: justify;
     }
   }
