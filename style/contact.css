@@ -121,7 +121,7 @@
   }
 
   .form input[type="text"],
-  .form textarea {
+  .form textarea, .form input[type="email"]  {
     border: 2px solid #fff;
     padding: 16px 10px;
     outline: none;

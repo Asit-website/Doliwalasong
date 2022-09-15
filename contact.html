@@ -49,36 +49,29 @@
   <div class="contas">
     <p>HOW CAN WE HELP YOU?</p>
     <div class="wrapper">
-
+       <form action="mailto:doliwala.india@gmail.com" method="post" enctype="text/plain">
       <div class="form">
-
         <div class="top-form">
           <div class="inner-form">
-            <!-- <div class="label">name</div> -->
-            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Name" name="name" required>
           </div>
           <div class="inner-form">
-            <!-- <div class="label">email</div> -->
-            <input type="text" placeholder="E-Mail">
+            <input type="email" placeholder="E-Mail" name="email" required>
           </div>
           <div class="inner-form">
             <!-- <div class="label">phone</div> -->
-            <input type="text" placeholder="Subject">
+            <input type="text" placeholder="Subject" name="subject" required>
           </div>
         </div>
-
-
-
         <div class="bottom-form">
           <div class="inner-form">
             <!-- <div class="label">message</div> -->
-            <textarea placeholder="Your message"></textarea>
+            <textarea placeholder="Your message" name="message" required></textarea>
           </div>
         </div>
-
         <button class="btn">Send Message</button>
-
       </div>
+    </form>
     </div>
   </div>
 

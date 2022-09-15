@@ -8,7 +8,7 @@ template.innerHTML = `<div class="sender"><header class="head">
    </div>
    <div class="second_span">
    <a style="text-decoration:none;" target="_blank" href="https://api.whatsapp.com/send/?phone=+919015608586&amp;text= hi"><span><img src="images/Mask Group 5.png" alt="">+91 9015608586</span></a> 
-      <span><img src="images/Mask Group 5.png" alt="">+91 9818411586</span>
+     <a style="text-decoration:none;"  href="tel:+919818411586"><span><img src="images/Mask Group 5.png" alt="">+91 9818411586</span></a>
    </div>
 </div>
 </header>
