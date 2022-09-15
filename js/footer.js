@@ -56,7 +56,7 @@ document.write(`<footer>
     </div>
     <div class="doliwala_try" style="display:flex ;margin-top: 18px;">
       <img style="width:17px ; height:17px;" src="images/Mask Group 5.png" alt="">
-      <p class="dir"> <a target="_blank" style="text-decoration:none; color:#ffffff;" href="https://api.whatsapp.com/send/?phone=+919015608586&amp;text= hi">+91 9015608586</a>, <a style="text-decoration:none; color:#ffffff;"  href="tel:+919818411586">+91 9818411586</a></p>
+      <p class="dir"> <a target="_blank" style="text-decoration:none; color:#ffffff;" href="https://api.whatsapp.com/send/?phone=+919015608586&amp;text= hi">+91 9015608586</a>, <a target="_blank" style="text-decoration:none; color:#ffffff;"  href="tel:+919818411586">+91 9818411586</a></p>
     </div>
 
     <div class="doliwala_try" style="display: flex; margin-top: 18px;">
