@@ -5,16 +5,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="keywords" content="Doli Palki for Bride,Bride and Groom Entry Concept, Doliwala Events and Wedding,Wedding Planner in Delhi,Artist Management & Entertainment Company">
+  <meta name="keywords"
+    content="Doli Palki for Bride,Bride and Groom Entry Concept, Doliwala Events and Wedding,Wedding Planner in Delhi,Artist Management & Entertainment Company">
   <title>Doliwala</title>
   <link rel="shortcut icon" href="images/favicon.png.png" type="image/x-icon">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style/home.css">
   <link rel="stylesheet" href="style/contact.css">
   <link rel="stylesheet" href="style/responsive.css">
 </head>
 <style>
- 
+
 </style>
 
 <body>
@@ -30,13 +33,14 @@
     <h1>Welcome to DoliWala Events & Wedding </h1>
     <div class="how_flex">
       <div class="st">
-       <img src="images/Group 326.png" alt="">
+        <img src="images/Group 326.png" alt="">
       </div>
-      
+
       <div class="st">
-        <a target="_blank"  href="https://api.whatsapp.com/send/?phone=+919015608586&amp;text= hi"> <img src="images/Group 325.png" alt="this"></a>
+        <a target="_blank" href="https://api.whatsapp.com/send/?phone=+919015608586&amp;text= hi"> <img
+            src="images/Group 325.png" alt="this"></a>
       </div>
-      
+
       <div class="st">
         <a target="_blank" href="mailto:doliwala.india@gmail.com"> <img src="images/Group 323.png" alt=""></a>
       </div>
@@ -45,37 +49,37 @@
       </div>
     </div>
   </div>
-  
-   
+
+
   <!-- mailto:doliwala.india@gmail.com -->
   <div class="contas">
     <p>HOW CAN WE HELP YOU?</p>
     <div class="wrapper">
-       <form  id="myForm"  method="post">
-      <div class="form">
-        <div class="top-form">
-          <div class="inner-form">
-            <input type="text" placeholder="Name" name="name" required>
+      <form id="myForm" class="dance" >
+        <div class="form">
+          <div class="top-form">
+            <div class="inner-form">
+              <input type="text" placeholder="Name" name="name" required>
+            </div>
+            <div class="inner-form">
+              <input type="text" placeholder="E-Mail"  name="email" required>
+            </div>
+            <div class="inner-form">
+              <input type="text" placeholder="Subject"  name="phone" required>
+            </div>
           </div>
-          <div class="inner-form">
-            <input type="text" placeholder="E-Mail" name="email" required>
+          <div class="bottom-form">
+            <div class="inner-form">
+              <textarea placeholder="Your message"  name="query" required></textarea>
+            </div>
           </div>
-          <div class="inner-form">
-            <input type="text" placeholder="Subject" name="phone" required>
-          </div>
+          <button class="btn" type="submit">Send Message</button>
         </div>
-        <div class="bottom-form">
-          <div class="inner-form">
-            <textarea placeholder="Your message" name="query" required></textarea>
-          </div>
-        </div>
-        <button   class="btn">Send Message</button>
-      </div>
-    </form>
+      </form>
     </div>
   </div>
 
-  
+
 
 
   <!-- ============footer================ -->
@@ -91,52 +95,49 @@
     })
 
     let burger = document.querySelector('.burger');
-   let second = document.querySelector('.second');
-   let fing = document.querySelector('.fing');
-   let navbar = document.querySelector('.navbar');
-   burger.addEventListener('click',()=>{
+    let second = document.querySelector('.second');
+    let fing = document.querySelector('.fing');
+    let navbar = document.querySelector('.navbar');
+    burger.addEventListener('click', () => {
       fing.classList.toggle('v-class-resp');
       navbar.classList.toggle('second');
-   })
+    })
   </script>
+
+  
 
   <script>
     window.addEventListener("load", () => {
-  function sendData() {
+    function sendData(url) {
     const XHR = new XMLHttpRequest();
-
-  
     const FD = new FormData(form);
+
     XHR.addEventListener("load", (event) => {
-      alert(event.target.responseText);
+      alert("Get Back You Soon");
     });
 
-    // Define what happens in case of error
     XHR.addEventListener("error", (event) => {
       alert('Oops! Something went wrong.');
     });
 
-    // Set up our request
-    XHR.open("POST", "https://yourquerys.herokuapp.com/api/send/8ca77aa1-c3ac-4e2d-8abd-55c142875d5a");
+    XHR.open("POST", url);
 
-    // The data sent is what the user provided in the form
-    XHR.send(FD);
+    XHR.send(new URLSearchParams(FD));
   }
 
-  // Get the form element
   const form = document.getElementById("myForm");
 
-  // Add 'submit' event handler
   form.addEventListener("submit", (event) => {
     event.preventDefault();
-
-    sendData();
+    sendData("https://yourquerys.herokuapp.com/api/send/8ca77aa1-c3ac-4e2d-8abd-55c142875d5a");
   });
 });
-              
+
   </script>
+
 
   <script src="js/footer.js"></script>
 </body>
+<!-- https://yourquerys.herokuapp.com/api/send/68324614-f3aa-4a3b-a483-cb7f9bce2268 -->
 
 </html>
