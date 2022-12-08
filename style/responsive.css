@@ -236,5 +236,14 @@
      footer .aboutUs .about_image img{
       width: 25px;
      }
-   
+}
+
+@media only screen and (max-width:510px){
+   .first_head{
+      flex-direction: column;
+   }
+   .second_span{
+      display: flex;
+      flex-direction: column;
+   }
 }
